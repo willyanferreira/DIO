@@ -3,10 +3,10 @@
 
 #### O esquema deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto conceitual para fornecer o contexto sobre seu esquema.
 
-## Objetivo:
+## Objetivo
 <p>Criar o esquema conceitual para o contexto de oficina com base na narrativa fornecida</p>
 
-## Narrativa: 
+## Narrativa
 - Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica.
 - Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões  periódicas.
 - Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.
