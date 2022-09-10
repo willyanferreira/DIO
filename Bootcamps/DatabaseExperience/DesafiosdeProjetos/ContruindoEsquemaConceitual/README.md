@@ -1,11 +1,10 @@
 # Descrição do Desafio
-===
-<p>Agora você irá criar um esquema conceitual do zero. A partir da narrativa fornecida você será capaz de criar todas as entidades, relacionamentos e atributos. Caso encontre algo que não foi definido na narrativa, utilize a sua compreensão do contexto e deixe uma descrição no README do seu github. para verificação.</p>
+<p>Criar um esquema conceitual do zero. A partir da narrativa fornecida criar todas as entidades, relacionamentos e atributos. Caso encontrar algo que não foi definido na narrativa, utilizar a compreensão do contexto e deixar uma descrição no README do github. para verificação.</p>
 
 #### O esquema deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto conceitual para fornecer o contexto sobre seu esquema.
 
 ## Objetivo:
-<p>Cria o esquema conceitual para o contexto de oficina com base na narrativa fornecida</p>
+<p>Criar o esquema conceitual para o contexto de oficina com base na narrativa fornecida</p>
 
 ## Narrativa: 
 - Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica.
