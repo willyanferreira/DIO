@@ -17,7 +17,7 @@ Assim como demonstrado durante o desafio, realize a criação do Script SQL para
 - As cláusulas podem estar presentes em mais de uma query;
 
 
-### O projeto deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto lógico para fornecer o contexto sobre seu esquema lógico apresentado.
+<!-- ### O projeto deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto lógico para fornecer o contexto sobre seu esquema lógico apresentado. -->
 
 ## Objetivo:
 [Relembrando] Aplicar o mapeamento para o  cenário.
@@ -27,8 +27,8 @@ Refinar o modelo apresentado acrescentando os seguintes pontos:
 - Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
 - Entrega – Possui status e código de rastreio;
 
-### Algumas das perguntas que podes fazer para embasar as queries SQL:
+<!-- ### Algumas das perguntas que podes fazer para embasar as queries SQL:
 - Quantos pedidos foram feitos por cada cliente?
 - Algum vendedor também é fornecedor?
 - Relação de produtos fornecedores e estoques;
-- Relação de nomes dos fornecedores e nomes dos produtos;
+- Relação de nomes dos fornecedores e nomes dos produtos; -->
