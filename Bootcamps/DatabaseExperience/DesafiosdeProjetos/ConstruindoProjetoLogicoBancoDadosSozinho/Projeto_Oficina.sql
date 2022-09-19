@@ -1,0 +1,36 @@
+-- INÍCIO DA CRIAÇÃO DO BANCO DE DADOS E DAS TABELAS DO PROJETO OFINA.
+SHOW DATABASES;
+
+-- CRIANDO O BD OFICINA.
+CREATE DATABASE oficina;
+USE oficina;
+SHOW TABLES;
+
+-- CRIANDO AS TABELAS.
+CREATE TABLE clientes(
+	cliente_id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(45) NOT NULL,
+    CPF CHAR(11) NOT NULL UNIQUE,
+    logradouro VARCHAR(45) NOT NULL,
+    numero VARCHAR(5) NOT NULL,
+    complemento VARCHAR(20),
+    bairro VARCHAR(45) NOT NULL,
+    cidade VARCHAR(45) NOT NULL,
+    UF CHAR(2) NOT NULL,
+    contato VARCHAR(12) NOT NULL,
+    nascimento DATE NOT NULL,
+    CONSTRAINT pk_cliente PRIMARY KEY(cliente_id, CPF)
+);
+DESC clientes;
+
+CREATE TABLE mecanicos();
+
+CREATE TABLE veiculos();
+
+CREATE TABLE servicos();
+
+CREATE TABLE ordemServicos();
+
+CREATE TABLE servicosRealizados(); 
+
+-- FIM DO PROCESSO DE CRIAÇÃO DO BD E DAS TABELAS.
