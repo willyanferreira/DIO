@@ -28,11 +28,24 @@
 
 
 // INSTANCIANDO A CLASSE CRIADA EM OUTRO ARQUIVO
-using Aulas;
+// using Aulas;
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "willyan"; //Console.ReadLine();
-p1.Idade = 32;
-p1.Apresentar();
+// Pessoa p1 = new Pessoa();
+// p1.Nome = "willyan"; //Console.ReadLine();
+// p1.Idade = 32;
+// p1.Apresentar();
 
 // Console.WriteLine("Tô aqui!");
+
+int[] MeuArray = new int[5];
+MeuArray[0] = 1;
+MeuArray[1] = 2;
+MeuArray[2] = 3;
+MeuArray[3] = 4;
+MeuArray[4] = 5;
+
+foreach (int x in MeuArray)
+{
+    Console.WriteLine(x);   
+}
+
