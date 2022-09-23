@@ -37,15 +37,14 @@
 
 // Console.WriteLine("Tô aqui!");
 
-int[] MeuArray = new int[5];
-MeuArray[0] = 1;
-MeuArray[1] = 2;
-MeuArray[2] = 3;
-MeuArray[3] = 4;
-MeuArray[4] = 5;
+// int[] MeuArray = new int[5];
+// MeuArray[0] = 1;
+// MeuArray[1] = 2;
+// MeuArray[2] = 3;
+// MeuArray[3] = 4;
+// MeuArray[4] = 5;
 
-foreach (int x in MeuArray)
-{
-    Console.WriteLine(x);   
-}
-
+// foreach (int x in MeuArray)
+// {
+//     Console.WriteLine(x);   
+// }
