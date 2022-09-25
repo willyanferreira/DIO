@@ -33,7 +33,8 @@ using Aulas;
 Pessoa p1 = new Pessoa();
 p1.Nome = "Willlyan"; //Console.ReadLine();
 p1.Idade = 32;
-p1.Apresentar();
+// p1.Sobrenome = "Soares";
+// p1.Apresentar();
 
 // Console.WriteLine("Tô aqui!");
 
@@ -48,3 +49,25 @@ p1.Apresentar();
 // {
 //     Console.WriteLine(x);   
 // }
+
+Pessoa p2 = new Pessoa();
+p2.Nome = "Raquel";
+p2.Sobrenome = "Soares";
+
+Pessoa p3 = new Pessoa();
+p3.Nome = "Heitor";
+p3.Sobrenome = "Ferreira";
+
+Pessoa p4 = new Pessoa();
+p4.Nome = "Amaya";
+p4.Sobrenome = "Ferreira";
+
+Curso c1 = new Curso();
+c1.Nome = "Inglês";
+c1.Alunos = new List<Pessoa>();
+
+c1.AdicionarAluno(p1);
+c1.AdicionarAluno(p2);
+c1.AdicionarAluno(p3);
+c1.AdicionarAluno(p4);
+c1.ListarAlunos();
