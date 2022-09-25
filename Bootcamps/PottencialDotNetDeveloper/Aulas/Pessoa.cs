@@ -33,9 +33,11 @@ namespace Aulas
                         _idade = value;
                 }
         }
+        public string Sobrenome { get; set;}
+        public string NomeCompleto => $"{Nome} {Sobrenome}";
         public void Apresentar()
         {
-            Console.WriteLine($"Olá meu nome é {Nome}, eu tenho {Idade} anos".ToUpper());
+            Console.WriteLine($"Olá! Meu nome é {NomeCompleto}, eu tenho {Idade} anos".ToUpper());
         }
 
         //MANEIRA DE INSTANCIAR A CLASSE PESSOA NO MESMO ARQUIVO.
