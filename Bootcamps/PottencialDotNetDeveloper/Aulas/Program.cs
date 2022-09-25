@@ -1,10 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Obrigado SENHOR!");
 
-// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 // namespace Aulas
 // {
@@ -28,12 +28,12 @@
 
 
 // INSTANCIANDO A CLASSE CRIADA EM OUTRO ARQUIVO
-// using Aulas;
+using Aulas;
 
-// Pessoa p1 = new Pessoa();
-// p1.Nome = "willyan"; //Console.ReadLine();
-// p1.Idade = 32;
-// p1.Apresentar();
+Pessoa p1 = new Pessoa();
+p1.Nome = "Willlyan"; //Console.ReadLine();
+p1.Idade = 32;
+p1.Apresentar();
 
 // Console.WriteLine("Tô aqui!");
 
