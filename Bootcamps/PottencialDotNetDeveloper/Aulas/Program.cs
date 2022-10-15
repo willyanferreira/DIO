@@ -28,11 +28,11 @@ using System.Threading.Tasks;
 
 
 // INSTANCIANDO A CLASSE CRIADA EM OUTRO ARQUIVO
-using Aulas;
+// using Aulas;
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "Willlyan"; //Console.ReadLine();
-p1.Idade = 32;
+// Pessoa p1 = new Pessoa();
+// p1.Nome = "Willlyan"; //Console.ReadLine();
+// p1.Idade = 32;
 // p1.Sobrenome = "Soares";
 // p1.Apresentar();
 
@@ -50,24 +50,41 @@ p1.Idade = 32;
 //     Console.WriteLine(x);   
 // }
 
-Pessoa p2 = new Pessoa();
-p2.Nome = "Raquel";
-p2.Sobrenome = "Soares";
+// Pessoa p2 = new Pessoa();
+// p2.Nome = "Raquel";
+// p2.Sobrenome = "Soares";
 
-Pessoa p3 = new Pessoa();
-p3.Nome = "Heitor";
-p3.Sobrenome = "Ferreira";
+// Pessoa p3 = new Pessoa();
+// p3.Nome = "Heitor";
+// p3.Sobrenome = "Ferreira";
 
-Pessoa p4 = new Pessoa();
-p4.Nome = "Amaya";
-p4.Sobrenome = "Ferreira";
+// Pessoa p4 = new Pessoa();
+// p4.Nome = "Amaya";
+// p4.Sobrenome = "Ferreira";
 
-Curso c1 = new Curso();
-c1.Nome = "Inglês";
-c1.Alunos = new List<Pessoa>();
+// Curso c1 = new Curso();
+// c1.Nome = "Inglês";
+// c1.Alunos = new List<Pessoa>();
 
-c1.AdicionarAluno(p1);
-c1.AdicionarAluno(p2);
-c1.AdicionarAluno(p3);
-c1.AdicionarAluno(p4);
-c1.ListarAlunos();
+// c1.AdicionarAluno(p1);
+// c1.AdicionarAluno(p2);
+// c1.AdicionarAluno(p3);
+// c1.AdicionarAluno(p4);
+// c1.ListarAlunos();
+
+// Algumas formas de declarar tuplas
+// Sem nomear as chaves
+// (int, string, string) primeiraTupla = (33, "Willyan", "Ferreira");
+// Console.WriteLine($"Minha idade é {primeiraTupla.Item1} anos");
+
+// Nomeando as chaves -> MANEIRA RECOMENDADA
+// (int idade, string nome, string sobrenome, double altura) segundaTupla = (33, "Willyan", "Ferreira", 1.73);
+// Console.WriteLine($"Eu tenho {segundaTupla.altura} de altura");
+
+// Usando ValueTuple -> N CONSEGUIMOS NOMEAR AS CHAVES
+// ValueTuple<int, string, string, double> terceiraTupla = (33, "Willyan", "Ferreira", 1.73);
+// Console.WriteLine($"Gosto de usar meu sobrenome {terceiraTupla.Item3}");
+
+// Usando Tuple.Create -> N CONSEGUIMOS NOMEAR AS CHAVES
+// var quartaTupla = Tuple.Create(33, "Willyan", "Ferreira", 1.73);
+// Console.WriteLine($"Me chamo {quartaTupla.Item2}");
