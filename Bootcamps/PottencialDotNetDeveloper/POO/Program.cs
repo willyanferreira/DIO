@@ -14,4 +14,11 @@ ContaCorrente c1 = new ContaCorrente(123, 1000);
 Aluno a1 = new Aluno();
 a1.Nome = "Heitor";
 a1.Idade = 4;
+a1.Nota = 10;
 a1.Apresentar();
+
+Professor fessor1 = new Professor();
+fessor1.Nome = "Willyan";
+fessor1.Idade = 33;
+fessor1.Salario = 1212;
+fessor1.Apresentar();
