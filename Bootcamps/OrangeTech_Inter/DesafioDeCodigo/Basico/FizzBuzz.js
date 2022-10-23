@@ -1,7 +1,3 @@
-// IMPORTANTE: As funções "gets" e "print" são acessíveis globalmente, onde:
-// - "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
-// - "print": imprime um texto de saída (output) e pula uma linha ("\n") automaticamente.
-
 let resultado = gets();
 if(resultado % 3 == 0 && resultado % 5 == 0){
    print("FizzBuzz")
