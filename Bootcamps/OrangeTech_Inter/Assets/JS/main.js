@@ -8,10 +8,4 @@ function listaPokemons(pokemon) {
 
 const listaPokemon = document.getElementById("listaPokemon");
 
-pokeAPI.getPkemons()
-    .then((pokemons) => {
-        for (let i = 0; i < pokemons.length; i++) {
-            const pokemon = pokemons[i]
-            listaPokemon.innerHTML += listaPokemons(pokemon)
-        }
-    })
+pokeAPI.getPkemons().then((pokemons = []) => listaPokemon.innerHTML += pokemons.map(listaPokemons).join(""))
