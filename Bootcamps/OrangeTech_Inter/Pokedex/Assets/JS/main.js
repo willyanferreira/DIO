@@ -8,6 +8,7 @@ function listaPokemons(pokemon) {
             <span>${pokemon.name}</span>
             <div>
                 <ol>${pokemonsTypes(pokemon.types)}</ol>
+                <img src="${pokemon.sprites.other.dream_world.front_default}">
             </div>
         </li>
     `
