@@ -2,7 +2,7 @@ const pokeAPI = {}
 
 function ourModelPokemon(pokedetail){
     const pokemon = new Pokemon();
-    pokemon.number = pokedetail.order;
+    pokemon.number = pokedetail.id;
     pokemon.name = pokedetail.name;
     const types = pokedetail.types.map((typeSlot) => typeSlot.type.name);
     const [type] = types;

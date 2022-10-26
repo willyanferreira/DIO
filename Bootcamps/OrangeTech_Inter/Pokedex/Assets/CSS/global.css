@@ -2,17 +2,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.content{
+/* .content{
     padding: 1rem;
-}
+} */
 
-.pokemons{
+/* .pokemons{
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
-}
+} */
 
-.pokemons li{
+/* .pokemons li{
     background-color: #14A06F;
     height: 8rem;
     border-radius: 1rem;
@@ -20,8 +20,24 @@
     padding: 2rem 1rem;
     color: #fff;
     text-transform: uppercase;
+} */
+
+/* ol.pokemons li img{
+    width: 6rem;
+} */
+
+li.grass{
+    background-color: #14A06F;
 }
 
-ol.pokemons li img{
-    width: 6rem;
+li.water{
+    background-color: steelblue;
+}
+
+li.fire{
+    background-color: tomato;
+}
+
+li.electric{
+    background-color: gold;
 }
