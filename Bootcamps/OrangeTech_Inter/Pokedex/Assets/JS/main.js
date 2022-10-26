@@ -1,14 +1,11 @@
-function pokemonsTypes(pokemonType){
-    return pokemonType.map((typeSlot) => `<li>${typeSlot.type.name}</li>`)
-}
 function listaPokemons(pokemon) {
     return `
-        <li>
-            <span>${pokemon.order}</span>
+        <li class="${pokemon.type}">
+            <span>${pokemon.number}</span>
             <span>${pokemon.name}</span>
             <div>
-                <ol>${pokemonsTypes(pokemon.types)}</ol>
-                <img src="${pokemon.sprites.other.dream_world.front_default}">
+            <ol>${pokemon.types.map((type) => `<li>${type}</li>`).join('')}</ol>
+                <img src="${pokemon.photo}">
             </div>
         </li>
     `
@@ -16,4 +13,4 @@ function listaPokemons(pokemon) {
 
 const listaPokemon = document.getElementById("listaPokemon");
 
-pokeAPI.getPokemons(0, 1).then((pokemons = []) => listaPokemon.innerHTML += pokemons.map(listaPokemons).join(""))
+pokeAPI.getPokemons().then((pokemons = []) => listaPokemon.innerHTML += pokemons.map(listaPokemons).join(""))
