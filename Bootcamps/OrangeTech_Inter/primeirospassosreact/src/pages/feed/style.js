@@ -6,11 +6,10 @@ export const Container = styled.main`
     margin: 0 auto;
     margin-top: 120px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 `
-export const Title = styled.h2`
+export const Title = styled.h3`
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
@@ -21,7 +20,13 @@ export const Title = styled.h2`
     color: #fff;
 `
 
-export const TitleHeighLight = styled.span`
+export const TitleHighLight = styled.h3`
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 24px;
+    line-height: 25px;
     color: #E41050;
 `
 
@@ -34,4 +39,9 @@ export const TextContent = styled.p`
     margin-bottom: 20px;
     line-height: 22px;
     color: #fff;
+`
+
+export const Column = styled.div`
+    flex: ${({flex}) => flex};
+    padding-right: 24px; 
 `
