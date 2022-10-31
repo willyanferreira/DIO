@@ -72,6 +72,7 @@ export const PostInfo = styled.div`
         font-weight: 400;
         font-size: 12px;
         line-height: 16px;
+        color: #ffff99;
     }
 `
 
@@ -93,5 +94,6 @@ export const HasInfo = styled.div`
         font-weight: 700;
         font-size: 16px;
         line-height: 22px;
+        color: #fff;
     }
 `
