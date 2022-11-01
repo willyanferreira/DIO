@@ -16,9 +16,13 @@ import {
 // import bannerImage from "../../assets/img/banner.png"
 import { Input } from "../../components/input"
 import { MdEmail, MdLock } from "react-icons/md"
+import { useForm } from "react-hook-form"
 
 const Login = () => {
     const navigate = useNavigate();
+
+    const { control, handleSubmit, formState: { errors, isValid } } = useForm();
+    const onSubmit = data => console.log(data);
 
     const handleClick = () => {
         navigate("./feed")
@@ -36,10 +40,10 @@ const Login = () => {
                     <Wrapper>
                         <TitleLogin>Faça seu cadastro</TitleLogin>
                         <SubTitleLogin>Faça seu login e make the change</SubTitleLogin>
-                        <form action="">
-                            <Input placeholder="E-mail" leftIcon={<MdEmail />} />
-                            <Input placeholder="Senha" type="password" leftIcon={<MdLock />} />
-                            <Button title="Entrar" variant="secondary" onClick={handleClick} type="button"/>
+                        <form onSubmit={handleSubmit}>
+                            <Input name="email" control={control} placeholder="E-mail" type="text" leftIcon={<MdEmail />} />
+                            <Input name="password" control={control} placeholder="Senha" type="password" leftIcon={<MdLock />} />
+                            <Button title="Entrar" variant="secondary" onClick={handleClick} type="submit"/>
                         </form>
                         <Row>
                             <EsqueciText>Esqueci minha senha</EsqueciText>
