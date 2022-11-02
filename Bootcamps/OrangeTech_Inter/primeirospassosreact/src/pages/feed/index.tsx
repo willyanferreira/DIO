@@ -20,9 +20,9 @@ const Feed = () => {
 
                 <Column flex={1}>
                     <TitleHighLight># Top 5 da semana</TitleHighLight>
-                    <UserInfo name="Willyan Carlos" img="https://avatars.githubusercontent.com/u/75634228?s=96&v=4" percentual="70" />
-                    <UserInfo name="Ferreira da Silva" img="https://avatars.githubusercontent.com/u/75634228?s=96&v=4" percentual="90" />
-                    <UserInfo name="Soares" img="https://avatars.githubusercontent.com/u/75634228?s=96&v=4" percentual="80" />
+                    <UserInfo name="Willyan Carlos" img="https://avatars.githubusercontent.com/u/75634228?s=96&v=4" percentual={70} />
+                    <UserInfo name="Ferreira da Silva" img="https://avatars.githubusercontent.com/u/75634228?s=96&v=4" percentual={90} />
+                    <UserInfo name="Soares" img="https://avatars.githubusercontent.com/u/75634228?s=96&v=4" percentual={80} />
                 </Column>
             </Container>
         </>

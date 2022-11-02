@@ -23,3 +23,10 @@ export const InputText = styled.input`
     width: 100%;
     outline: none;
 `
+
+
+export const ErrorText = styled.p`
+    color: tomato;
+    font-size: 12px;
+    margin: 5px 0;
+`

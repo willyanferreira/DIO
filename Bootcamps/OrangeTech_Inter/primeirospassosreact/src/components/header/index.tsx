@@ -11,9 +11,10 @@ import {
     UserPicture,
     Input
 } from "./style"
+import { IHeader } from "./types";
 import logo from "../../assets/img/logo-dio.png"
 
-const Header = ({autenticado}) => {
+const Header = ({autenticado}: IHeader) => {
     return (
         <Wrapper>
             <Container>
