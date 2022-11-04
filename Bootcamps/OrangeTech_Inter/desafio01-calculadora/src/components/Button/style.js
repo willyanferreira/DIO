@@ -11,4 +11,9 @@ export const ButtonContainer = styled.button`
     &:hover{
         opacity: 0.6;
     }
+
+    &.power{
+        color: #fff;
+        background-color: #f00;
+    }
 `
