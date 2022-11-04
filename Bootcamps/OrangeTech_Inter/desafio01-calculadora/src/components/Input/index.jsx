@@ -1,9 +1,9 @@
 import { InputContainer } from "./style";
 
-export const  Input = () => {
+export const  Input = ({value}) => {
     return (
       <InputContainer>
-        <input disabled />
+        <input disabled value={value} />
       </InputContainer>
     );
   }
