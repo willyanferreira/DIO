@@ -4,7 +4,7 @@ import { InputContainer } from "./styles";
 function Input() {
   return (
     <InputContainer>
-      <input />
+      <input placeholder="buscar repositório"/>
     </InputContainer>
   );
 }
