@@ -26,8 +26,11 @@ function App() {
     }
   }
 
+  // console.log(repos)
+
   const handleRemoveRepo = (id) => {
-    //ToDo
+    console.log(`Ainda não consigo deletar o elemento com o Id: ${id}`)
+
   }
 
   return (
@@ -37,7 +40,7 @@ function App() {
       </svg>
       <Input value={currentRepo} onChange={(e) => setCurrentRepo(e.target.value)} />
       <Button onClick={handleSearchRepo} />
-      {repos.map(repo => <ItemRepo repo={repo} /> )}
+      {repos.map(repo => <ItemRepo repo={repo} onClick={handleRemoveRepo} /> )}
     </Container>
   );
 }
