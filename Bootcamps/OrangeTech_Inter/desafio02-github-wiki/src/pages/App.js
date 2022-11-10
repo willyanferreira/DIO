@@ -29,8 +29,10 @@ function App() {
   // console.log(repos)
 
   const handleRemoveRepo = (id) => {
-    console.log(`Ainda não consigo deletar o elemento com o Id: ${id}`)
-
+    // function removeRepoId(e){
+    //   return e !== id;
+    // }
+    console.log(repos.filter((e) => e !== id))
   }
 
   return (
