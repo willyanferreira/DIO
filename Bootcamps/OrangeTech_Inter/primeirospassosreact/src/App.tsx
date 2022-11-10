@@ -7,6 +7,7 @@ import {
 import { Home } from "./pages/home"
 import { Login } from "./pages/login"
 import { Feed } from "./pages/feed"
+import { Cadastro } from "./pages/cadastro"
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="login/feed" element={<Feed />} />
+        <Route path="/login/feed" element={<Feed />} />
+        <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
     </Router>
   );
